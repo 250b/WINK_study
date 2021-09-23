@@ -1,0 +1,41 @@
+#back {width: 400px;
+    height: 580px;
+    background-image: url('background.jfif');
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#top {display: flex;
+margin-left: 160px;
+}
+#check {width: 40px;
+    height: 40px;
+    margin-top: 17px;
+}
+#online {text-align: center;
+    margin-top: 0px;}
+#box {
+    width: 230px;
+    height: 230px;
+    border-radius: 70%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+#character {width: 250px;
+margin-bottom: 30px;
+}
+#sleepy {text-align: center;
+    font-weight: bold;
+}
+#bottom {display: flex;
+justify-content: space-around;}
+.icon {display: flex; }
+#chat {width: 40px;
+    height: 40px;
+}
+#finger {width: 40px;
+    height: 40px;
+}
+.text {font-weight: bold;
+margin-left: 5px;
+}
