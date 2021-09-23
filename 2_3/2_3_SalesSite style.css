@@ -1,0 +1,69 @@
+body {background-color:#82a049;}
+#back {background-color: white;          /*흰배경*/
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 1em;
+    box-shadow: 4px 4px 20px darkolivegreen;
+}
+#left {float: left;}                      /*왼쪽부분*/
+img {width: 270px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#choosesize {margin-bottom: 5px;
+    margin-left: 2px;
+    font-weight: bold;
+    color: #82a049;
+}
+#choose {margin-left: 70px;}
+.size {display: inline-block;
+    border-color: #82a049;
+    border-style: solid;
+    padding: 7px;
+    margin-top: 0px;
+    color: #82a049;
+    border-radius: 0.2em;
+}
+#right {                                 /*오른쪽부분*/
+    float: left;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#prada {font-weight: bold;
+    color: #82a049;
+    margin-bottom: 0px;
+}
+h1 {color: darkslategray;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#sold {font-size: 37px;
+    font-weight: bold;
+    color: brown;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.cart {display: inline-block;
+    background-color: #82a049;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-top: 0px;
+    border-radius: 0.2em;
+}
+#add {margin-left: 90px;
+    margin-top: 40px;
+}
+#footer {text-align: center;                 /*푸터*/
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 80%;
+}
