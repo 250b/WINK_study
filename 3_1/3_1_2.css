@@ -1,0 +1,132 @@
+/*header*/
+header {
+    font-size: 160%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*side menu*/
+aside {
+    float: left;
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-top: 30px;
+    line-height: 60%;
+}
+.contents {
+     font-size: 18px;
+     padding-bottom: 14px;
+     cursor: pointer;
+ }
+.contents span {
+    color: dimgray;
+    font-size: 13px;
+    margin-top:30px;
+    display: none;
+    margin-bottom: 10px;
+}
+li {
+    list-style: none;
+}
+
+
+/*img slide*/
+#slideshow {
+    float: left;
+    width: 520px;
+    height: 500px;
+    position:relative;
+    overflow: hidden;
+}
+.slides {
+     position: absolute;
+     width: 1650px;
+     transition: 0.5s ease-out;
+     padding-left: 0px;
+ }
+.slides li {
+      float: left;
+}
+.slides li:not(:last-child) {
+       float:left;
+}
+img {
+    width: 520px;
+    height: 500px;
+}
+.controller span {
+    color: black;
+    position: absolute;
+    text-align: center;
+    padding:10px 20px;
+    top:50%;
+    font-size: 2em;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+}
+.next {
+    margin-left: 480px;
+}
+
+
+/*product name*/
+#buy {
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+#pname {
+    font-size: 20px;
+    font-family: Times New Roman;
+}
+#sizetitle {
+    font-family: Times New Roman;
+    margin-bottom: 2px;
+    margin-top: 40px;
+}
+
+
+/*option select*/
+select {
+     padding-top: 16px;
+     padding-bottom: 16px;
+     padding-right: 140px;
+     margin-top: 10px;
+     font-family: Times New Roman;
+     font-size:15px;
+}
+option {
+    font-size: 13px;
+    font-family: Times New Roman;
+}
+
+
+/*buy menu*/
+.buymenu {
+    padding: 16px 70px;
+    font-family: Times New Roman;
+}
+#buynow {
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+#addtocart {
+    border-color: black;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}

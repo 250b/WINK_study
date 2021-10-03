@@ -1,0 +1,94 @@
+header {
+    font-size: 160%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*---------------------*/
+nav {
+    width: 700px;
+    margin: auto;
+}
+ul li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#menu {
+    width: 700px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 6px;
+}
+#menu >ul> li {
+    float: left;
+    width: 20%;
+    position: relative;
+
+}
+#menu >ul> li> ul {
+    position: absolute;
+    display: none;
+}
+
+.sub{
+    width: 140px;
+    padding-left: 0;
+}
+#menu >ul>li:hover >ul{
+    display: block;
+    background-color: white;
+    opacity: 0.8;
+}
+#pad {padding-left: 0;}
+
+
+/*---------------------*/
+
+aside {
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+
+/*---------------------*/
+
+#block1 {
+    float:right;
+    display: inline-block;
+}
+#block1text {
+    font-family: Times New Roman;
+    position: absolute;
+    top: 69%;
+    left:79% ;
+    text-align: center;
+    font-size: 24px;
+    display: none;
+}
+#block2 {
+    float:right;
+    display: inline-block;
+}
+#block2text {
+    font-family: Times New Roman;
+    position: absolute;
+    top: 70%;
+    right:53% ;
+    text-align: center;
+    font-size: 24px;
+    display: none;
+}
+#jacket {
+    width:400px;
+    height:500px;
+    margin-right: 10px;
+}
+
+#knit {
+    width:600px;
+    height: 500px;}
